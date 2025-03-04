@@ -28,11 +28,11 @@ kind: Pod
 metadata:
   labels:
     run: omega
-  name: omegax
+  name: omegay
   namespace: omegaverse
 spec:
   containers:
-  - name: omegax
+  - name: omegay
     args:
     - /bin/tail
     - -f
